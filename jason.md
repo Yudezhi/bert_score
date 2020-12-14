@@ -1,7 +1,5 @@
 # BERTScore 使用说明
 
-
-
 ## 相关说明
 
 * 如果用命令行之前还是要把terminal proxy 设置一下
@@ -11,10 +9,7 @@
 * 不同的模型出现的结果大有不同
 * 英文单词的大小写竟然影响相似度
 
-
-
 ## 常用指令
-
 
 #### 中文句子评分
 
@@ -46,8 +41,6 @@ bert-score -r example/refs.txt example/refs2.txt -c example/hyps.txt --lang en
 ```bash
 bert-score-show --lang en -r "There are two bananas on the table." -c "On the table are two apples." -f out.png
 ```
-
-
 
 ### bert-score -h
 
@@ -82,4 +75,3 @@ optional arguments:
                         reference file path(s) or a string
   -c CAND, --cand CAND  candidate (system outputs) file path or a string
 ```
-
